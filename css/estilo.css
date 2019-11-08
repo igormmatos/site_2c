@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cabecalho */
+
+::selection{
+    background-color: #fed136;
+}
+.cabecalho{
+    width:100%;
+    background-image: url('../img/introducao2.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 650px;
+    transition:all 0.4s;
+}
+.cabecalho-resumo{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em 0;
+    transition:all 0.4s;
+}
+.menu-lista{
+    display: flex;
+    padding: 2em 0;
+    transition:all 0.4s;
+}
+.lista{
+    list-style: none;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0 1.5em;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition:all 0.4s;
+}
+.link-menu{
+    text-decoration: none;
+    color:#fff;
+}
+.link-menu:active{
+    color:#fff;
+}
+.link-menu:hover{
+    color: #fed136;
+    transition: all 0.2s;
+}
+.introducao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:4em;
+    transition:all 0.4s;
+}
+.introducao-titulo{
+    text-transform: uppercase;
+    font-size:5em;
+    font-family: 'Montserrat', sans-serif;
+    color:#fff;
+    transition:all 0.4s;
+}
+.btn-quemsomos{
+    font-size: 1.125em;
+    font-weight: bold;
+    padding: 1.25em 2.5em;
+    border-radius: 5px;
+    color: #fff;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    cursor:pointer;
+    letter-spacing: 0.2em;
+    text-decoration: none;
+    transition: all 0.4s;
+}
+.btn-quemsomos:hover{
+    background-color:#fff;
+    color:#000;
+}
+@media only screen and (max-width:53.625em){
+    .cabecalho-resumo{
+        flex-direction: column;
+        align-items: center;
+    }
+    .menu-lista{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        line-height: 2em;
+        transition:all 0.4s;
+    }
+    .introducao{
+        margin-top:1em;
+    }
+    .introducao-titulo{
+        font-size: 3em;
+    }
+}
+
+/* SERVIÇOS */
+
+.servicos{
+    width: 100%;
+    padding: 3em;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-top:2em;
+}
+.titulo-header{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2em;
+}
+.servicos-lista{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.servicos-sistemas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5em;
+    line-height: 1.5em;
+    margin:1.5em 1.5em 0 0;
+    min-height:340px;
+    width: 30%;
+    font-size:1em;
+    font-family: 'Roboto Slab', serif;
+    cursor: pointer;
+}
+.servicos-sistemas:hover{
+    background-color: #000;
+    color: #fff;
+    transition: all 0.6s;
+}
+.servicos-nome{
+    margin-top: 1em;
+}
+.servicos-descricao{
+    margin-top: 1em;
+    text-align: left;
+}
+@media only screen and (max-width:60.125em){
+    .servicos-lista{
+        flex-direction: column;
+        width: 100%;
+    }
+    .servicos-sistemas{
+        width: 100%;
+        font-size:0.8em;
+    }
+}
+
+/* time */
+
+.time{
+    width: 100%;
+    background-color: #f8f9fa;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.time-titulo{
+    width: 100%;
+    text-align: center;
+    margin-top:2em;
+    padding: 2em 0;
+    font-size: 2em;
+    transition: all 0.4s;
+}
+.time-2c{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    transition:all 0.4s;
+}
+.time1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:2em;
+    padding: 2em;
+    line-height: 2em;
+}
+.time-funcao{
+    color:#868e96;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+}
+.time-foto{
+    border-radius:50%;
+    border-width: 7px;
+    border-color:#fff;
+    border-style:solid;
+}
+
+.sociais-face, .sociais-insta, .sociais-linkedin{
+    border-radius: 50%;
+    cursor:pointer;
+}
+.sociais-face:hover, .sociais-insta:hover, .sociais-linkedin:hover{
+    opacity: 0.5;
+    transition: opacity 0.4s;
+}
+@media only screen and (max-width:42.6875em){
+    .time-2c{
+        flex-direction:column;
+        transition: all 0.4s;
+    }
+    .time-titulo{
+        font-size:1em;
+    }
+}
+
+/* Quem Somos */
+
+.quem-somos{
+    width: 100%;
+    padding: 3.5em;
+}
+.quem-somos-cabecalho{
+    width: 100%;
+}
+.quem-somos-titulo{
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+.quem-somos-desc{
+    text-align:center;
+    font-family: 'Roboto Slab', serif;
+    margin-top:1.5em;
+}
+.quem-somos-anos{
+    width: 100%;
+    margin-top: 5em;
+    display: flex;
+    flex-direction: column;
+}
+.historia{
+    display: flex;
+    justify-content: space-around;
+}
+.historia1{
+    width: 50%;
+    padding: 1.5em;
+}
+.historia2{
+    width: 50%;
+    padding: 1.5em;
+}
+.historia-img{
+    border-radius: 50%;
+    border-width: 7px;
+    border-style: solid;
+    border-color: #f8f9fa;
+}
+.historia-2016{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 25em;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.historia-desc{
+    font-family: 'Roboto Slab', serif;
+    line-height: 1.5em;
+    word-spacing: 0.2em;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-left-color: #bbb;
+    padding-left: 1em;
+}
+.titulo-historia{
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+    letter-spacing: 3px;
+    color: #fff;
+    background-color: #000;
+    background-image: -webkit-linear-gradient(140deg, rgba(198, 198, 198, .3) 60%, transparent 50%, transparent);
+}
+@media only screen and (max-width:43.75em){
+    .historia{
+        flex-direction: column;
+    }
+    .historia1{
+        width: 100%;
+    }
+    .historia2{
+        width:100%;
+    }
+    .quem-somos{
+        padding: 2em 1em;
+    }
+}
+
+/* Contato */
+.contato{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url('../img/mapa-contato.png');
+    background-size: cover;
+    padding: 4em 1.5em;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.contato-titulo{
+    width: 100%;
+    text-align:center;
+    color:#fff;
+    text-transform:uppercase;
+    font-size:1.8em;
+}
+.contato-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.input-contato{
+    border: 0 none;
+    outline: 0;
+    height:50px;
+    border-radius:3px;
+    margin:1.5em 0;
+    width: 50%;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 0 1.5em;
+    font-weight: bold;
+    font-size: 1.2em;
+    color:#000;
+    border-width: 2px;
+    border-color:#fff;
+    border-style:solid;
+}
+.input-contato:focus{
+    background-color: #fed136;
+    box-shadow: 0 0 10px #fff;
+    transition: all 0.4s;
+}
+.textarea-contato{
+    border: 0 none;
+    outline: 0;
+    margin:1.5em 0;
+    width: 50%;
+    height:150px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    padding: 1.5em;
+    font-weight:bold;
+    font-size:1em;
+    color:#000;
+    resize: none;
+    border-width: 2px;
+    border-color:#fff;
+    border-style:solid;
+    border-radius:3px;
+}
+.textarea-contato:focus{
+    background-color:#fed136;
+    box-shadow: 0 0 10px #fff;
+    transition: all 0.4s;
+}
+::-webkit-input-placeholder{
+    color:#000;
+}
+.btn-contato{
+    margin:1.5em 0;
+    height: 50px;
+    width: 40%;
+    font-weight:bold;
+    background-color:#000;
+    text-transform: uppercase;
+    color:#fff;
+    font-size:1.2em;
+    cursor:pointer;
+}
+.btn-contato:hover{
+    color:#000;
+    background-color:#fff;
+    transition: all 0.4s;
+}
+@media only screen and (max-width:37.5em){
+    .input-contato{
+        width: 100%;
+    }
+    .textarea-contato{
+        width: 100%;
+    }
+}
+@media only screen and (max-width:25em){
+    .contato-titulo{
+        font-size:1em;
+    }
+    .btn-contato{
+        width: 80%;
+    }
+}
+/* rodape */
+.rodape{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1.5em;
+    background-color:#fff;
+}
+.rodape-copy{
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color:#000;
+}
+@media only screen and (max-width:25em){
+    .rodape{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

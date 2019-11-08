@@ -1,0 +1,7 @@
+[02-Feb-2019 14:05:58 America/Chicago] PHP Notice:  Undefined index: nome in /home4/igor/public_html/php/envio_email.php on line 3
+[02-Feb-2019 14:05:58 America/Chicago] PHP Notice:  Undefined index: projeto in /home4/igor/public_html/php/envio_email.php on line 7
+[14-Feb-2019 05:24:18 America/Chicago] PHP Notice:  Undefined index: nome in /home4/igor/public_html/php/envio_email.php on line 3
+[14-Feb-2019 05:24:18 America/Chicago] PHP Notice:  Undefined index: projeto in /home4/igor/public_html/php/envio_email.php on line 7
+[04-Apr-2019 15:54:52 America/Chicago] PHP Notice:  Undefined index: nome in /home4/igor/public_html/php/envio_email.php on line 3
+[04-Apr-2019 15:54:52 America/Chicago] PHP Notice:  Undefined index: email in /home4/igor/public_html/php/envio_email.php on line 5
+[04-Apr-2019 15:54:52 America/Chicago] PHP Notice:  Undefined index: projeto in /home4/igor/public_html/php/envio_email.php on line 7
